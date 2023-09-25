@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@300&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+}
+
+/* ########## utility class ############## */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+/* ########## navbar styling ############## */
+
+/* for desktop mode */
+
+.navbar-container input[type="checkbox"],
+.navbar-container hamburger-lines{
+    display: none;
+}
+
+
+.navbar{
+    border: 2px solid green;
+    color: #000000;
+    background: #fff;
+    width: 100%;
+}
+
+.navbar-container{
+    border: 2px solid red;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
